@@ -4,7 +4,7 @@ function conn(){
     $hostname = "localhost"
     $usuariodb ="root"
     $paswworddb =""
-    $dnnombre = ""
+    $dnnombre = "usuarios"
 
 //Genera la conexion con el servidor
 $connectar = mysql.connect($hostaname, $usuariodb, $passworddb, $dbname)
